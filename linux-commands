@@ -1,0 +1,75 @@
+BASIC COMMANDS OF LINUX:
+
+
+1. cmd:passwd <userid>
+       It is used to change the password.It also allows us to give password which has been already used previously.
+               
+2. cmd:pwd
+       It displays the present working directory.And it stands for print working directory.
+
+3. cmd:whoami
+       It tells about the user who is working in currrent directory.
+
+4. cmd:cd \
+       It goes back to root node.
+
+5. cmd:cd ..
+       This command will take back to one folder or directory.
+
+6. cmd:cd <foder-name>
+       It goes to specified folder.And CD stands for change directory.It allows to move round directories.
+
+7. cmd:su <user-name>
+      SU stands for switch user.It switches from current user to specified user.
+   cmd:su -
+      It switch from current user to root.
+
+8. cmd:ls
+       LS stands for list.It lists all the files present in the current directory in a linear fashion i.e in rows.
+            Hidden files are always start with ".".This command is doesn't display the hidden files.
+
+9. cmd:ls -l
+       -l is an extension added to ls,to display the lists in line by line fashion.It shows all the details of each file clearly and
+  seperately.
+
+10. cmd:clear
+       The command clear is used to refresh or erase the previously executed commands in the terminal.
+
+11. cmd:touch <file-name>
+       It creates an empty file in the current working directory.The file may be with or without extension.We can create multiple
+           fiels at a time.
+    Ex:
+         touch file1 file2 file3
+
+12. cmd:ls -a
+      It lists all files including hidden files.We can also add extension "l" to it,so that it lists the files including hidden files
+         line by line.No matter about the order either it is "ls -la" or "ls -al" it performs same operation.
+
+13. cmd:ls *
+         By using * we are able to see the subdirectory files as well.
+
+14. cmd:ls -R
+         It recursively diplay the files along with its sub directories.
+
+15. cmd:ls -s
+         The size of the each file also be diplayed.
+
+16. Actually the file size is not that much cleared which is displayed.For more clarity we have to convert into human readability 
+      form.For that we use human readable command called "ls -lh"
+   cmd:ls -lh
+         Its diplays the file size in human readble form i.e in KB's MB's etc.
+
+17. cmd:ls -r
+     It reverses the sequence of lists.We can combination all like"ls -lsr","ls -lr" etc...
+        Each can done its own action. Finally displayed contents is combination of all actions.
+
+18. cmd:ls -t
+     In this the files are sorted according to their  time.
+
+19. cmd:ls -ltr
+        Here we combine all three extensions,that displays the reverse order of sorting files according to time line by line.
+
+20. cmd:ls -l <file-name/something>*
+         It diplays all the files which are start with specified file-name/something.
+      
+
